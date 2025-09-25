@@ -471,18 +471,18 @@ Cisco 1941W modeli, standart 1941'e ek olarak entegre bir kablosuz erişim nokta
 
 Bu özellikler, özellikle merkezi bir kontrolöre bağlı olan büyük ağlarda önemlidir:
 
-* **Kablosuz LAN Kontrolcüsü ve Cisco WCS Desteği** | Merkezi bir kontrolcü ve **Cisco WCS (Kablosuz İletişim Sistemi)** yazılımı aracılığıyla birden fazla erişim noktasını tek bir noktadan yönetme yeteneği. |
-* **Şeffaf Dolaşım (Transparent Roaming)** | Kullanıcıların, ağdaki farklı erişim noktaları arasında bağlantı kesintisi yaşamadan sorunsuz geçiş yapabilmesi. |
+* **Kablosuz LAN Kontrolcüsü ve Cisco WCS Desteği**: Merkezi bir kontrolcü ve **Cisco WCS (Kablosuz İletişim Sistemi)** yazılımı aracılığıyla birden fazla erişim noktasını tek bir noktadan yönetme yeteneği.
+* **Şeffaf Dolaşım (Transparent Roaming)**: Kullanıcıların, ağdaki farklı erişim noktaları arasında bağlantı kesintisi yaşamadan sorunsuz geçiş yapabilmesi. 
 
 #### 4. WLAN Güvenlik Özellikleri
 
 Cihaz, kurumsal düzeyde güvenlik ve kimlik doğrulama protokollerini destekler:
 
-* **WPA ve WPA2 (AES) Şifrelemesi** | **Wi-Fi Korumalı Erişim** ve daha güçlü olan Gelişmiş Şifreleme Standardı (AES) ile kablosuz trafiğin güvenliğini sağlar. |
-* **EAP Kimlik Doğrulaması** | Kullanıcıları ağa kabul etmeden önce kimliklerini doğrulamak için **LEAP, PEAP, EAP-TLS, EAP-FAST** gibi geniş yelpazede kimlik doğrulama yöntemlerini destekler. |
-* **WEP, TKIP/SSN** | Eski **Kabloluya Eşdeğer Gizlilik (WEP)** ve daha sonraki **TKIP** şifreleme protokollerini de destekler. |
-* **MAC Filtreleme** | Belirli cihazların **MAC adresleri** üzerinden ağa erişimini kontrol etme yeteneği. |
-* **PSK (Ön Paylaşımlı Anahtarlar)** | Daha küçük ofisler için, her kullanıcı için ayrı bir kimlik doğrulaması yerine ortak bir parola kullanılan basit güvenlik yöntemi. |
+* **WPA ve WPA2 (AES) Şifrelemesi**: **Wi-Fi Korumalı Erişim** ve daha güçlü olan Gelişmiş Şifreleme Standardı (AES) ile kablosuz trafiğin güvenliğini sağlar. 
+* **EAP Kimlik Doğrulaması**: Kullanıcıları ağa kabul etmeden önce kimliklerini doğrulamak için **LEAP, PEAP, EAP-TLS, EAP-FAST** gibi geniş yelpazede kimlik doğrulama yöntemlerini destekler. 
+* **WEP, TKIP/SSN**: Eski **Kabloluya Eşdeğer Gizlilik (WEP)** ve daha sonraki **TKIP** şifreleme protokollerini de destekler. 
+* **MAC Filtreleme**: Belirli cihazların **MAC adresleri** üzerinden ağa erişimini kontrol etme yeteneği. 
+* **PSK (Ön Paylaşımlı Anahtarlar)**: Daha küçük ofisler için, her kullanıcı için ayrı bir kimlik doğrulaması yerine ortak bir parola kullanılan basit güvenlik yöntemi. 
 
 #### 5. Kablosuz Ağ Kapasitesi
 
