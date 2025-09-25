@@ -329,3 +329,166 @@ Cisco 1941, bu süreci kolaylaştırmak için yerleşik yönetim özellikleriyle
 
 * **İlk Gün Desteği**: Bu, yönlendiriciyi kurar kurmaz, anında yönetim uygulamalarıyla izleyebileceğin, yapılandırabileceğin ve sorunlarını giderebileceğin anlamına gelir. Bu, kurulum sürecini hızlandırır.
 * **Gömülü Yönetim Özellikleri**: Yönlendiricinin içinde **IP SLA** (ağ performansını izler), **EEM** (görevleri otomatikleştiren bir özellik) ve **NetFlow** (ağ trafiği istatistiklerini toplar) gibi gelişmiş özellikler bulunur. Bu özellikler sayesinde, ağında neler olup bittiğini her zaman kontrol edebilirsin.
+
+---
+
+### Cisco 1941: Desteklenen Protokoller ve Yönetim Yetenekleri
+
+Cisco 1941'in ne tür ağ protokollerini desteklediğini ve ağı yönetmek için hangi araçları sunduğunu gördüm.
+
+### Protokol ve Teknoloji Desteği
+
+Cisco 1941, modern bir ağın tüm ihtiyaçlarını karşılamak için geniş bir protokol yelpazesini destekler. 
+
+Bunları üç ana gruba ayırabiliriz:
+
+* **Yönlendirme Protokolleri:** Cihaz, ağlar arası en iyi yolu bulmak için kullanılan **OSPF**, **EIGRP**, ve **BGP** gibi protokolleri destekler. Bunlar, dinamik ve büyük ağlarda verinin hedefine ulaşmasını sağlar.
+  
+* **Kapsülleme Protokolleri:** Verinin bir ağdan diğerine güvenli ve düzenli bir şekilde aktarılması için kullanılan **Frame Relay**, **PPP** ve **802.1q VLAN** gibi teknolojileri destekler.
+  
+* **Trafik Yönetimi (QoS):** Bu cihaz, ağdaki trafiği önceliklendirebilen **QoS** (Hizmet Kalitesi) gibi özelliklere sahiptir. Örneğin, video konferans trafiğini e-postalara göre daha öncelikli hale getirerek kesintisiz bir deneyim sunabilir.
+
+### Yönetim ve İzleme Yetenekleri
+
+Cisco 1941, ağ uzmanlarının hayatını kolaylaştıran birçok gömülü yönetim aracına sahiptir:
+
+* **WSMA (Web Hizmetleri Yönetim Aracı):** Bu, ağ cihazını uzaktan yönetmek, ayarları değiştirmek ve yeni yapılandırma verilerini yüklemek için kullanılan bir mekanizmadır. XML ve SOAP gibi standartları kullanır.
+* **EEM (Gömülü Olay Yöneticisi):** Bu özellik, bir olay algılandığında (örneğin bir hat bağlantısının kesilmesi gibi) otomatik olarak önceden tanımlanmış bir eylemi tetikleyebilir.
+* **IPSLA (IP Hizmet Düzeyi Anlaşmaları):** Ağınızdaki veri, ses ve video gibi kritik uygulamaların performansını izlemek ve belirli hedeflere (hız, gecikme gibi) ulaşıldığından emin olmak için kullanılır.
+* **Standart Protokoller:** Cihaz, ağ izleme için yaygın olarak kullanılan **SNMP**, **RMON**, **Syslog**, ve **NetFlow** gibi standart protokolleri de destekler. Bu protokoller, üçüncü taraf ağ yönetim yazılımlarıyla sorunsuz bir şekilde çalışarak ağınızın durumunu sürekli olarak izlemenizi sağlar.
+
+---
+
+### Cisco Ağ Yönetimi Uygulamaları
+
+Cisco, ağ cihazlarını yönetmek için bir dizi özel yazılım sunar.
+Bu uygulamalar, ağın farklı operasyonel aşamalarına göre ayrılmıştır ve yöneticilerin işini kolaylaştırır. 
+Bu uygulamaları satın alabilir veya indirebilirsin.
+
+### 1. Cihaz Kurulumu ve Yapılandırması
+
+**Cisco Configuration Professional (CCP):** Bu, **Cisco IOS** yazılımı kullanan yönlendiriciler için tasarlanmış, grafik arayüzlü bir yönetim aracıdır.
+Karmaşık yönlendirme, güvenlik duvarı, sanal özel ağ (VPN) ve yerel ağ (LAN) ayarlarını kolay kullanımlı sihirbazlar aracılığıyla basitleştirir.
+
+### 2. Ağ Geneli Kurulum ve Yönetim
+
+**CiscoWorks LMS (LAN Management Solution):** Bu, günlük ağ yönetimini kolaylaştıran bir dizi uygulamadır. 
+Web tabanlı bir arayüz üzerinden ağ yöneticilerine yönlendiricileri yapılandırma, yönetme ve sorun giderme imkanı sunar. 
+Ayrıca **Hizmetlere Hazır Motor (SRE)** modüllerinin yazılım güncellemelerini yönetme gibi ek yetenekler de sağlar.
+
+**CiscoWorks NCM (Network Compliance Manager):** Bu yazılım, multi vendor network altyapısında (farklı markaların cihazlarını içeren ağlarda) yapılan yapılandırma ve yazılım değişikliklerini izler. 
+Bu sayede, ağınızın düzenleyici, kurumsal ve teknoloji gereksinimlerine uygunluğunu kontrol edebilir ve değişimleri takip edebilirsin.
+
+### 3. Güvenlik Yönetimi
+
+**Cisco Security Manager:** Bu, güvenlik yönetimi için kullanılan kurumsal düzeyde bir uygulamadır. 
+Farklı Cisco cihazları üzerinde güvenlik duvarı, VPN ve saldırı önleme sistemi (IPS) hizmetlerinin kurulumunu sağlar. 
+Ayrıca, **Cisco Security MARS** adı verilen bir araçla güvenlik olaylarını izleme, analiz etme ve müdahale etme yeteneği sunar.
+
+### 4. Yapılandırma ve Tedarik
+
+**Cisco Unified Provisioning Manager:** Bu, bir şirketin yeni nesil iletişim hizmetlerini (IP telefon, sesli mesaj ve mesajlaşma gibi) yönetmek için güvenilir ve ölçeklenebilir bir web tabanlı çözümdür.
+
+**Cisco License Manager:** Bu güvenli istemci-sunucu uygulaması, **Cisco IOS** yazılım lisanslarının etkinleştirilmesini ve yönetimini kolaylaştırır.
+
+### 5. Otomatik Kurulum ve Dağıtım
+
+**Cisco Configuration Engine:** Bu, sıfır dokunuşla (zero-touch) görüntü ve yapılandırma dağıtımını sağlayan güvenli bir ağ yönetim ürünüdür. 
+Cihazları ağa takar takmaz, önceden hazırlanmış şablonlar sayesinde otomatik olarak yapılandırmayı ve yazılımı yükler.
+Bu, özellikle çok sayıda cihazın kurulması gereken büyük projelerde büyük zaman kazandırır.
+
+---
+
+### Cisco 1941 Serisi: Özet ve Teknik Özellikler
+
+Bu cihaz, birden fazla ayrı cihazın işlevlerini tek bir kompakt sistemde birleştirerek uzaktan yönetimi kolaylaştırır.
+
+#### Cisco 1941 Entegre Hizmet Yönlendiricisi Ürün Özellikleri
+
+Bu tablo, Cisco 1941 ve kablosuz modeli olan 1941W'nin donanımsal kapasitesini gösterir.
+
+| Kategori | Özellik | Açıklama |
+| :--- | :--- | :--- |
+| **Hizmetler ve Slot Yoğunluğu** | | |
+| **Gömülü donanım tabanlı kripto hızlandırma (IPSec)** | **Evet** | Cihazın, **VPN** gibi şifreleme işlemlerini donanımsal olarak çok hızlı yapabilme yeteneği. |
+| **Toplam Yerleşik Gigabit Ethernet WAN Port Sayısı** | **2** | Yönlendiricinin üzerinde doğrudan bulunan, **1 Gbps** hız destekleyen internet (WAN) bağlantı noktası sayısı. |
+| **EHWIC Slotları** | **2** | **Geliştirilmiş Yüksek Hızlı WAN Arayüz Kartları** (modüller) için mevcut yuva sayısı. |
+| **Çift Genişlikte EHWIC Slotları** | **1** | Tek bir büyük modül takmak için kullanılabilen alan. Bu, iki adet standart EHWIC yuvasını kullanır. |
+| **ISM Slotları** | **1 (1941W'de 0)** | **Dahili Hizmetler Modülü (SRE)** için ayrılmış yuva. **1941W** (kablosuz model) bu yuva yerine kablosuz özelliğini kullanır. |
+| **Bellek (RAM) - Varsayılan / Maksimum** | **512 MB / 2.0 GB** | Cihazın varsayılan bellek miktarı ve maksimum yükseltilebileceği RAM miktarı. ECC (Hata Düzeltme Kodu) teknolojisini kullanır. |
+| **Compact Flash (Harici) - Maksimum** | **2 x 4 GB** | Cihazın işletim sistemi veya konfigürasyon dosyalarını saklamak için kullanılan harici depolama alanı. |
+| **USB Flash Bellek Yuvaları (Tip A)** | **2** | Harici depolama veya güvenlik belirteçleri için kullanılan USB bağlantı noktası sayısı. |
+| **Konsol Portları (Seri/USB)** | **1 / 1** | Cihazın ilk kurulumu ve yönetimi için kullanılan geleneksel (Serial) ve modern (USB) yönetim portlarının sayısı. |
+| **Güç Kaynağı Seçenekleri** | **AC, POE** | Cihazın **AC** (standart priz) veya **PoE** (Ethernet üzerinden güç) destekli güç kaynaklarıyla çalışabileceğini gösterir. |
+| **Yedekli Güç Kaynağı Desteği** | **Hayır** | Cihazın, arıza durumunda devreye girecek ikinci bir güç kaynağını desteklemediği anlamına gelir. |
+
+---
+
+### Güç ve Fiziksel Özellikler
+
+| Kategori | Özellik | Açıklama |
+| :--- | :--- | :--- |
+| **Güç Spesifikasyonları** | | |
+| **Tipik Güç Tüketimi (Modülsüz)** | **35 W** | Router'ın standart kullanımda harcadığı yaklaşık elektrik gücü. |
+| **Maksimum Güç Kapasitesi (AC/PoE)** | **110 W** | Güç kaynağının platforma sağlayabileceği en yüksek güç. |
+| **Maksimum PoE Cihaz Güç Kapasitesi** | **80 W** | PoE destekli cihazlara (IP telefon, kamera) dağıtılabilecek toplam güç miktarı. |
+| **Fiziksel Özellikler** | | |
+| **Boyutlar** | **3.5 in x 13.5 in x 11.5 in** | Cihazın Yükseklik x Genişlik x Derinlik ölçüleri. |
+| **Raf Yüksekliği** | **2 RU** | Cihazın bir sunucu rafında (Rack) kapladığı yer (2 adet Rack Ünitesi). |
+| **Ağırlık (Maksimum Konfigürasyon)** | **14 lbs (~6.35 kg)** | Cihazın tüm modüllerle birlikte ulaşabileceği en yüksek ağırlık. |
+| **Hava Akışı** | **Önden Yana** | Soğutma için havanın cihazın önünden girip yanlardan çıktığı yön. |
+| **Çevresel Koşullar** | | |
+| **Çalışma Sıcaklığı** | **0-40˚C** | Cihazın sorunsuz çalışabileceği sıcaklık aralığı. |
+| **Yönetmelik Uygunluğu (Safety/EMC/Telecom)** | **UL, EN, CISPR, TIA/EIA vb.** | Cihazın güvenlik, elektromanyetik uyumluluk ve telekomünikasyon standartlarına uygun olduğunu gösteren sertifikalar. |
+
+---
+
+### Cisco 1941W: Kablosuz Ağ (WLAN) Teknik Özellikleri
+
+Cisco 1941W modeli, standart 1941'e ek olarak entegre bir kablosuz erişim noktası sunar.
+
+#### 1. WLAN Donanım Özellikleri
+
+| Özellik | Açıklama |
+| :--- | :--- |
+| **IEEE 802.11n ve Geriye Uyumluluk** | Cihaz, en hızlı Wi-Fi standartlarından biri olan **802.11n** taslağını desteklerken, eski **802.11a/b/g** cihazlarıyla da çalışabilir. |
+| **Çift Radyo (Dual Radios)** | Router, hem **2.4 GHz** (802.11b/g/n) hem de **5 GHz** (802.11a/n) frekanslarında yayın yapabilir. Bu, daha az yoğun olan 5 GHz bandını kullanma esnekliği sağlar. |
+| **MIMO (Çoklu Giriş, Çoklu Çıkış)** | **2x3 MIMO** radyo operasyonu, birden fazla anten kullanarak daha iyi sinyal kalitesi, daha yüksek hız ve daha geniş kapsama alanı sağlar. |
+| **Harici Anten Bağlantıları** | Antenler, alanda değiştirilebilir **RP-TNC** konnektörleri kullanır. Bu, antenin arızalanması veya daha güçlü bir antenle değiştirilmesi gerektiğinde kolaylık sağlar. |
+| **Anten Kazancı** | Varsayılan anten kazancı **2-dBi**’dır (desibel izotropik). Bu, antenin sinyali ne kadar güçlendirdiğini belirten standart bir ölçümdür. |
+
+#### 2. WLAN Yazılım Özellikleri
+
+| Özellik | Açıklama |
+| :--- | :--- |
+| **Otonom veya Birleşik AP** | **Otonom (Autonomous)** modda router, Wi-Fi'ı bağımsız olarak yönetir. **Birleşik (Unified)** modda ise, tüm ağdaki kablosuz ağları yöneten merkezi bir **Kablosuz LAN Kontrolcüsü (WLC)** tarafından yönetilebilir. |
+| **Hız veya Kapsama Alanı Seçeneği** | Yazılım üzerinden, maksimum veri hızı mı yoksa maksimum kablosuz kapsama alanı mı istediğini seçerek performansı optimize edebilirsin. |
+| **Radyo Rolleri** | Cihaz; **erişim noktası (AP)**, **ana köprü (root bridge)** veya **çalışma grubu köprüsü (workgroup bridge)** gibi farklı rollerde çalışabilir. |
+| **Wi-Fi Multimedya (WMM)** | Ses ve video gibi kritik trafiğe öncelik vererek **Hizmet Kalitesini (QoS)** sağlayan bir sertifikasyon standardıdır. |
+| **TSPEC ve CAC** | **TSPEC (Trafik Spesifikasyonları)** ve **CAC (Çağrı Kabul Kontrolü)**, özellikle sesli görüşmelerin kalitesini garanti etmek için bant genişliğini yönetir. |
+
+#### 3. Birleşik WLAN Yönetimi
+
+Bu özellikler, özellikle merkezi bir kontrolöre bağlı olan büyük ağlarda önemlidir:
+
+* **Kablosuz LAN Kontrolcüsü ve Cisco WCS Desteği** | Merkezi bir kontrolcü ve **Cisco WCS (Kablosuz İletişim Sistemi)** yazılımı aracılığıyla birden fazla erişim noktasını tek bir noktadan yönetme yeteneği. |
+* **Şeffaf Dolaşım (Transparent Roaming)** | Kullanıcıların, ağdaki farklı erişim noktaları arasında bağlantı kesintisi yaşamadan sorunsuz geçiş yapabilmesi. |
+
+#### 4. WLAN Güvenlik Özellikleri
+
+Cihaz, kurumsal düzeyde güvenlik ve kimlik doğrulama protokollerini destekler:
+
+* **WPA ve WPA2 (AES) Şifrelemesi** | **Wi-Fi Korumalı Erişim** ve daha güçlü olan Gelişmiş Şifreleme Standardı (AES) ile kablosuz trafiğin güvenliğini sağlar. |
+* **EAP Kimlik Doğrulaması** | Kullanıcıları ağa kabul etmeden önce kimliklerini doğrulamak için **LEAP, PEAP, EAP-TLS, EAP-FAST** gibi geniş yelpazede kimlik doğrulama yöntemlerini destekler. |
+* **WEP, TKIP/SSN** | Eski **Kabloluya Eşdeğer Gizlilik (WEP)** ve daha sonraki **TKIP** şifreleme protokollerini de destekler. |
+* **MAC Filtreleme** | Belirli cihazların **MAC adresleri** üzerinden ağa erişimini kontrol etme yeteneği. |
+* **PSK (Ön Paylaşımlı Anahtarlar)** | Daha küçük ofisler için, her kullanıcı için ayrı bir kimlik doğrulaması yerine ortak bir parola kullanılan basit güvenlik yöntemi. |
+
+#### 5. Kablosuz Ağ Kapasitesi
+
+| Kapasite | Miktar | Açıklama |
+| :--- | :--- | :--- |
+| **Hizmet Kümesi Tanıtıcıları (SSID'ler)** | **16** | Cihazın aynı anda yayınlayabileceği farklı kablosuz ağ adı (Wi-Fi adı) sayısı. Her SSID, farklı güvenlik ve erişim kurallarına sahip olabilir. |
+| **Kablosuz VLAN'lar** | **16** | Her bir SSID'nin, trafik izolasyonu ve güvenlik için ayrı bir **Sanal Yerel Ağ (VLAN)** ile eşleştirilebileceği anlamına gelir. |
+
+Onca teknik detaydan sonra buradan çok şey öğrendim, bunları pratikleştirmeye çalışacağım. Packet Tracer yazılımında Cisco 1941 cihazı var inceleyeceğim.
